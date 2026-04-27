@@ -1,10 +1,12 @@
 <script setup>
-import NavMenu from '@/components/NavMenu.vue'
+import AddTask from './components/AddTask.vue'
+import TaskList from './components/TaskList.vue'
+import StatsPanel from './components/StatsPanel.vue'
 </script>
 
 <template>
-  <div class="flex min-h-screen flex-col">
-    <NavMenu />
-    <RouterView />
-  </div>
+  <h1>FocusFlow</h1>
+  <AddTask />
+  <TaskList />
+  <StatsPanel />
 </template>
